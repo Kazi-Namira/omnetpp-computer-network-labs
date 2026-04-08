@@ -1,0 +1,29 @@
+version 3
+run General-0-20260409-01:04:38-23956
+attr configname General
+attr datetime 20260409-01:04:38
+attr datetimef 20260409-010438
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network FiveHostNetwork
+attr processid 23956
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network FiveHostNetwork
+config sim-time-limit 20s
+config record-eventlog true
+
+par FiveHostNetwork.host[0] typename "\"Host\""
+par FiveHostNetwork.host[1] typename "\"Host\""
+par FiveHostNetwork.host[2] typename "\"Host\""
+par FiveHostNetwork.host[3] typename "\"Host\""
+par FiveHostNetwork.host[4] typename "\"Host\""
+par FiveHostNetwork typename "\"FiveHostNetwork\""
+
