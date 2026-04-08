@@ -1,0 +1,32 @@
+version 3
+run General-0-20260409-01:16:45-28648
+attr configname General
+attr datetime 20260409-01:16:45
+attr datetimef 20260409-011645
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network AlohaNetwork
+attr processid 28648
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network AlohaNetwork
+config sim-time-limit 10s
+config record-eventlog true
+
+par AlohaNetwork.host[0] typename "\"AlohaHost\""
+scalar AlohaNetwork.host[0] "Total Packets Sent" 43
+scalar AlohaNetwork.host[0] "Total Packets Successful" 32
+scalar AlohaNetwork.host[0] Throughput 3.2
+par AlohaNetwork.host[1] typename "\"AlohaHost\""
+par AlohaNetwork.host[2] typename "\"AlohaHost\""
+par AlohaNetwork.host[3] typename "\"AlohaHost\""
+par AlohaNetwork.host[4] typename "\"AlohaHost\""
+par AlohaNetwork typename "\"AlohaNetwork\""
+
