@@ -5,6 +5,7 @@ This repository contains my computer network lab projects implemented using **OM
 ## Projects
 
 ### 1. ALOHA Simulation (alo_ha)
+- Ques: Implement pure ALOHA using the simulator and measure its performance by analyzing the throughout.
 - Folder: `alo_ha`
 - Description: Implements **Pure ALOHA protocol** simulation.
 - Features:
