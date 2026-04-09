@@ -16,6 +16,7 @@ This repository contains my computer network lab projects implemented using **OM
   - Compiled binaries in `out/`
 
 ### 2. Lab2 – Host to Host Message Passing (lab2)
+- Ques: Create a network of 5 hosts. One of the hosts will create a message and send it to its neighbor. Other hosts will just keep on sending the message to one of their neighbors. Run and record the event log.
 - Folder: `lab2_network`
 - Description: Network of 5 hosts where one host sends a message to its neighbor; others forward it continuously.
 - Features:
